@@ -1,0 +1,11 @@
+
+https://www.youtube.com/watch?v=F8s4Ng-re0E
+npm install gh-pages --save-dev
+
+*************************************
+"homepage":"http://ardenmajidi.github.io/slider"  //in package.json 
+    "predeploy":"npm run build", //in  package.json  script
+  "deploy":"gh-pages -d build", 
+****************************************
+git init
+git remote add origin https://github.com/ardenmajidi/slider.git
